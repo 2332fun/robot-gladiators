@@ -49,7 +49,7 @@ for (var i = 0; i < enemyNames.length; i++) {
 
 // function to end the entire game
 var endGame = function() {
-  // if player is still alive, player wins!
+  // if player is still alive, the player wins!
   if (playerHealth > 0) {
     window.alert("Great job, you've survived the game! You now have a score of " + playerMoney + ".");
   } 
